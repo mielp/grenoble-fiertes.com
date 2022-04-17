@@ -1,0 +1,17 @@
+.warning-block {
+  background-color: #cc333322;
+  border: 1px solid #cc333366;
+  border-radius: 5px;
+  color: darkred;
+  padding: 0.5em;
+}
+
+.warning-block::before {
+  content: "⚠️ ";
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .warning-block {
+    color: lightcoral;
+  }
+}

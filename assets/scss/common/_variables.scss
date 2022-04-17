@@ -1,0 +1,176 @@
+/*
+ * Color system
+ */
+
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start color-variables
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+// Pride colors:
+// Intersex https://www.schemecolor.com/intersex-flag-colors.php
+// Brown and black: https://www.schemecolor.com/orange-black-gradient.php
+// Trans https://www.schemecolor.com/transgender-pride-flag-colors.php
+// Rainbow https://www.schemecolor.com/spread-the-pride.php
+$pride-yellow: #ffd800;
+$pride-purple: #7902aa;
+$pride-white: #fff;
+$pride-lightblue: #55cdfc;
+$pride-pink: #f7a8b8;
+$pride-brown: #95522E;
+$pride-black: #09081F;
+$pride-red: #fb5b44;
+$pride-orange: #fc9548;
+//$pride-yellow: #f2ce3f;
+$pride-green: #88bb64;
+$pride-blue: #0491d0;
+$pride-lavender: #6d458b;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-color-variables
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start shadow-variables
+$shadow-color-soft: $gray-400;
+$shadow-color-medium: $gray-600;
+$shadow-color-soft-dark: $black;
+$shadow-color-medium-dark: $gray-900;
+// scss-docs-end shadow-variables
+
+$blue: #8903d6; // APCA: 81
+$yellow: #f7d56e;
+//$pink: #7d03c4; // APCA: 85
+//$primary: #765d83; // APCA: 79
+$primary: #5e3d76; // APCA: 90
+$gray-darker: #586069;
+$gray-dark: #6a737d;
+
+/*
+ * Typography
+ */
+
+// stylelint-disable value-keyword-case
+// $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: "Atkinson Hyperlegible", system-ui, -apple-system,
+  BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, Lato, Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+// stylelint-enable value-keyword-case
+$font-size-base: 1.1rem; // Assumes the browser default, typically `16px`
+$font-size-xl: $font-size-base * 1.375;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-md: $font-size-base * 1.125;
+$font-size-sm: $font-size-base * 0.875;
+$font-weight-bold: 600;
+$line-height-base: 1.5;
+$headings-font-family: "Inter", $font-family-sans-serif;
+$headings-font-weight: 600;
+$headings-line-height: 1.3;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+
+// Navbar
+
+$navbar-padding-y: $spacer * 1.5;
+$navbar-padding-x: $spacer;
+
+// Alerts
+//
+// Define alert colors, border radius, and padding.
+
+$alert-padding-y: 0.75rem;
+$alert-padding-x: 1.5rem;
+$alert-margin-bottom: 0;
+$alert-border-radius: 0;
+$alert-link-font-weight: $headings-font-weight;
+$alert-border-width: 0;
+$alert-bg-level: 0;
+$alert-border-level: 0;
+$alert-color-level: 0;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $primary;
+$link-color-dark: lighten($purple, 20%);
+$link-font-weight: bold;
+$link-decoration: none;
+$link-shade-percentage: 10%;
+$link-hover-color: darken($link-color, $link-shade-percentage);
+$link-hover-color-dark: darken($link-color-dark, $link-shade-percentage);
+$link-hover-decoration: underline;
+$stretched-link-pseudo-element: after;
+$stretched-link-z-index: 1;
+
+/*
+ * Pizzazz
+ */
+
+// yellow purple yellow white pink lightblue brown black red orange green blue purple
+$percent: 100% / 13;
+$pride-flag-gradient: linear-gradient(
+  90deg,
+  $pride-yellow 1 * $percent,
+  $pride-purple 1 * $percent,
+  $pride-purple 2 * $percent,
+  $pride-yellow 2 * $percent,
+  $pride-yellow 3 * $percent,
+  $pride-white 3 * $percent,
+  $pride-white 4 * $percent,
+  $pride-pink 4 * $percent,
+  $pride-pink 5 * $percent,
+  $pride-lightblue 5 * $percent,
+  $pride-lightblue 6 * $percent,
+  $pride-brown 6 * $percent,
+  $pride-brown 7 * $percent,
+  $pride-black 7 * $percent,
+  $pride-black 8 * $percent,
+  $pride-red 8 * $percent,
+  $pride-red 9 * $percent,
+  $pride-orange 9 * $percent,
+  $pride-orange 10 * $percent,
+  $pride-yellow 10 * $percent,
+  $pride-yellow 11 * $percent,
+  $pride-green 11 * $percent,
+  $pride-green 12 * $percent,
+  $pride-blue 12 * $percent,
+  $pride-blue 13 * $percent,
+  $pride-lavender 13 * $percent
+);
