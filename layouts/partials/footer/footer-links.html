@@ -1,0 +1,16 @@
+<!--
+  A list of links in the footer.
+  External links are marked with a dedicated class.
+  A link can be highlighted (in site params).
+-->
+<p class="links">
+{{- $current := .context -}}
+{{ range .menus }}
+  {{- $external := in .URL "https://" -}}
+  {{- $highlight := in $current.Site.Params.highlights .Name -}}
+  {{- $classes := trim (printf "%s %s" (cond $external "external" "") (cond $highlight "sparks" "")) " " -}}
+  <a href="{{ .URL }}"
+    {{ if $external }}target="_blank" rel="noreferrer noopener"{{ end }}
+    {{ if $classes }}class="{{ $classes }}"{{ end }}>{{- .Name -}}</a>
+{{ end }}
+</p>

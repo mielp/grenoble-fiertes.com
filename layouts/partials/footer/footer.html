@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <section>
+    <h2>Accès rapide</h2>
+    {{ partial "footer/footer-links" (dict "context" . "menus" .Site.Menus.quick) }}
+  </section>
+  <section>
+    <h2>Informations</h2>
+    {{ partial "footer/footer-links" (dict "context" . "menus" .Site.Menus.infos) }}
+    <p>
+      {{ .Site.Params.footer | safeHTML }}
+    </p>
+  </section>
+  <section>
+    <h2>Réseaux sociaux</h2>
+    {{ partial "footer/footer-links" (dict "context" . "menus" .Site.Menus.social) }}
+  </section>
+  <div class="full-row">
+    <hr />
+    <small class="copyright">{{ .Site.Params.copyRight | safeHTML }}</small>
+  </div>
+</footer>

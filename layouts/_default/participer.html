@@ -1,0 +1,22 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<section class="card-list">
+  {{ range .Data.Pages -}}
+  <article class="card">
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Description }}</p>
+    {{ if .Params.Form -}}
+    <a
+      class="card-action"
+      href="{{ .Params.Form }}"
+      target="_blank"
+      rel="noreferrer noopener"
+      >Accéder au formulaire</a
+    >
+    {{- end }}
+    <a class="card-more" href="{{ .Permalink }}">En savoir plus</a>
+  </article>
+  {{ end -}}
+</section>
+{{ end }}

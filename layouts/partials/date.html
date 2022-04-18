@@ -1,0 +1,5 @@
+{{ $day_names := slice "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" }}
+{{ $month_names := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
+{{ $month := sub .Date.Month 1 }}
+
+<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Day }}{{ if eq .Date.Day 1 }}er{{end}}&nbsp;{{ index $month_names $month }} {{ .Date.Year }}</time>

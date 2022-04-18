@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "fr" }}">
+  {{ partial "head/head.html" . }}
+  {{- partial "head/body-class.html" . -}}
+  <body class="{{ delimit (.Scratch.Get "class") " " }}">
+    <a id="skip-link" class="skip-link screen-reader-text" href="#contenu">Passer au contenu principal</a>
+    {{ if and .IsHome .Site.Params.alert }}
+      {{ partial "header/alert.html" . }}
+    {{ end }}
+    {{ partial "header/header.html" . }}
+    <main id="contenu" class="site-content {{ if .Params.isArticle }}article-container{{ end }}" tabindex="-1">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "sidebar-footer" . }}{{ end }}
+    {{ partial "footer/footer.html" . }}
+    {{ partial "footer/script-footer.html" . }}
+  </body>
+</html>

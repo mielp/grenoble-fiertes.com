@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<section class="timeline">
+  {{ range sort .Data.Pages "Params.starts" "asc" -}}
+  <article class="timeline-event" tabindex="0">
+    <h2>{{ .Title }}</h2>
+    <time datetime="{{ .Params.starts }}">
+      <span class="date">{{ .Params.starts | time.Format "Monday 2 Jan" }}</span>
+      <span class="time">{{ .Params.starts | time.Format "15h04" }}{{ if .Params.ends }}{{ .Params.ends | time.Format "—15h04" }}{{ end }}</span>
+    </time>
+    <p>{{ .Content }}</p>
+  </article>
+  {{ end -}}
+</section>
+{{ end }}
