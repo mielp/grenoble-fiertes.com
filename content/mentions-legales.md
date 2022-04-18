@@ -29,10 +29,12 @@ Association enregistrée auprès de la préfecture de l'Isère.
 Nous nous engageons à respecter la vie privée des visiteureuses de ce site web.
 Par conséquent, nous ne collectons et ne traitons d'aucune donnée personnelle.
 Aucune donnée n'est revendue à des annonceurs.
-Ce site web n'utilise pas de cookies.
+Ce site web n'utilise pas de cookies et fonctionne sans JavaScript.
 
-Si une solution de mesure d'audience est mise en place, celle-ci correspondra
-à nos engagements.
+À partir du 18 avril 2022, nous utilisons [umami](https://umami.is) pour mesurer l'audience.
+Cette solution open-source n'utilise pas de cookies. Les données collectées sont anonymisées. Aucune donnée n'est communiquée à des tiers, et aucune donnée ne peut être utilisée pour tracer les visiteureuses sur d'autres sites que celui-ci.
+
+L'utilisation de bloqueurs de contenu tels que [uBlock Origin](https://ublockorigin.com/) et autres adblockers est respectée (il n'y a pas de mesure d'évitement mise en place), et une personne utilisant ce type d'outil ne sera pas comptabilisée dans les statistiques du site.
 
 ## Hébergeur
 
