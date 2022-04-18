@@ -1,0 +1,102 @@
+# Main navigation
+
+[[main]]
+  name = "Édition 2022"
+  url = "/edition-2022"
+  weight = 10
+
+[[main]]
+  name = "Participer"
+  url = "/participer"
+  weight = 20
+
+#[[main]]
+#  name = "Archives 2018-2021"
+#  url = "/anciennes-editions"
+#  weight = 20
+
+[[main]]
+ name = "L'asso"
+ url = "/a-propos"
+ weight = 30
+
+[[main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 40
+
+#[[main]]
+#  name = "Presse"
+#  url = "/presse"
+#  weight = 50
+
+# Quick navigation (footer)
+
+[[quick]]
+  name = "Qui sommes-nous ?"
+  url = "/a-propos"
+  weight = 10
+
+[[quick]]
+  name = "Programme 2022"
+  url = "/edition-2022"
+  weight = 20
+
+# [[quick]]
+#   name = "Archives 2018-2021"
+#   url = "/anciennes-editions"
+#   weight = 20
+
+[[quick]]
+  name = "Participer"
+  url = "/participer"
+  weight = 30
+
+# [[quick]]
+#   name = "Presse"
+#   url = "/presse"
+#   weight = 40
+
+[[quick]]
+  name = "Contact"
+  url = "/contact"
+  weight = 50
+
+# Informative links
+
+[[infos]]
+  name = "Mentions légales"
+  url = "/mentions-legales"
+  weight = 10
+
+[[infos]]
+  name = "Statuts de l'association"
+  url = "/statuts"
+  weight = 20
+
+[[infos]]
+  name = "Ligne politique"
+  url = "/ligne-politique"
+  weight = 30
+
+[[infos]]
+  name = "Sexualité et protection"
+  url = "https://www.sexosafe.fr/"
+  weight = 40
+
+# Social links
+
+[[social]]
+  name = "Facebook"
+  url = "https://www.facebook.com/GrenoblePride/"
+  weight = 10
+
+[[social]]
+  name = "Instagram"
+  url = "https://www.instagram.com/GrenoblePride/"
+  weight = 20
+
+[[social]]
+  name = "Twitter"
+  url = "https://twitter.com/GrenoblePride"
+  weight = 30

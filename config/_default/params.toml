@@ -1,0 +1,56 @@
+# Meta Data for SEO
+
+## Homepage
+logo = "/images/grenoble-fiertes.png"
+logoDark = "/images/grenoble-fiertes-dark.png"
+title = "Grenoble Fiertés"
+titleSeparator = "-"
+titleAddition = "Site officiel"
+description = "Grenoble Fiertés organise annuellement la Marche et la quinzaine des Fiertés de Grenoble."
+
+## Open Graph
+images = ["/images/grenoble-fiertes.png"]
+ogLocale = "fr_FR"
+titleHome = "Grenoble Fiertés"
+
+## Twitter Cards
+twitterSite = "@GrenoblePride"
+twitterCreator = "@GrenoblePride"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "GrenoblePride"
+schemaAuthor = "Grenoble Fiertés"
+schemaAuthorTwitter = "https://twitter.com/softpandarou"
+schemaAuthorGitHub = "https://github.com/mielp"
+schemaLocale = "fr-FR"
+schemaLogo = "images/grenoble-fiertes.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "images/grenoble-fiertes.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/GrenoblePride"
+schemaGitHub = "https://github.com/mielp"
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "320"
+
+# Footer and feed
+footer = "Grenoble Fiertés est membre du <a href=\"https://www.centrelgbti-grenoble.org/\" target=\"_blank\" rel=\"noopener\">Centre LGBTI de Grenoble</a>. 🏳️‍🌈"
+#  et de <a href=\"https://www.epoa.eu/\" target=\"_blank\" rel=\"noopener\">l'EPOA</a>
+highlights = ["Contact"]
+copyRight = "© 2017-2022 Grenoble Fiertés. Site réalisé avec amour et paillettes. 💖"
+
+# Alert
+alert = true
+alertText = "Participez à la prochaine Marche des Fiertés ! <a href=\"/participer\">Plus d'informations →</a>"
