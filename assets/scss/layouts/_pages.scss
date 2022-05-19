@@ -269,6 +269,14 @@ p.meta a:focus {
   }
 }
 
+.affiche {
+  max-width: 100%;
+}
+
+.partenaire {
+  margin: 1rem;
+}
+
 @media screen and (max-width: 42rem) {
   .card-list {
     display: block;
