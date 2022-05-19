@@ -1,0 +1,21 @@
+{{/* Adapt the dict here to fit your data model. See 'comp_event.ics' for available keys. */}}
+
+{{/* Multiline hack from: https://github.com/gohugoio/hugoDocs/issues/764#issuecomment-625711237 */}}
+
+{{ with dict `` `
+  ` "description"  (dict "text" .Plain "lang" "fr-FR") `` `
+  ` "summary"      (dict "text" .Title "lang" "fr-FR") `` `
+  ` "eventStart"   (dict "dateTime" .Params.startDate "timeZoneID" "Europe/Paris") `` `
+  ` "eventEnd"     (dict "dateTime" .Params.endDate "timeZoneID" "Europe/Paris") `` `
+  ` "location"     (dict "text" .Params.location "lang" "fr-FR") `` `
+  ` "url"          (.OutputFormats.Get "HTML").Permalink `` `
+  ` "contact"      (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" "fr-FR") `` `
+  ` "color"        "crimson" `` `
+  ` "status"       (cond (.Params.cancelled | default false) "CANCELLED" "CONFIRMED") `` `
+  ` "uid"          .File.UniqueID `` `
+  ` "timestamp"    .Date `` `
+  ` "created"      .Date `` `
+  ` "lastmod"      .Lastmod `` `
+  ` -}}
+  {{ partial "ical/comp_event.ics" . }}
+{{ end }}
