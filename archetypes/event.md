@@ -5,5 +5,6 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 images: []
-starts: {{ .Date }}
+startDate: {{ .Date }}
+endDate: {{ .Date }}
 ---
