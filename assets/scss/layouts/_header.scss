@@ -1,4 +1,4 @@
-header {
+.navbar {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
@@ -41,7 +41,7 @@ header {
 }
 
 @media (max-width: 50rem) {
-  header {
+  .navbar {
     flex-flow: column wrap;
   }
 
@@ -61,7 +61,8 @@ header {
   }
 }
 
-.skip-link {
+.skip-link,
+.sr-only {
   clip: rect(1px, 1px, 1px, 1px);
   word-wrap: normal !important;
   border: 0;

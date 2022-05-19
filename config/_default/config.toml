@@ -70,3 +70,9 @@ timeZone="Europe/Paris"
     [[related.indices]]
     name = "date"
     weight = 10
+
+[outputFormats.Calendar]
+  baseName = "calendar"
+  permalinkable = true
+  # Avoid webcal scheme
+  protocol = "https://"

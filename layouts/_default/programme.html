@@ -1,14 +1,39 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
+<p class="center">
+  {{ with .OutputFormats.Get "Calendar" }}
+  <a class="btn" href="{{ .RelPermalink }}" type="text/calendar">Ajouter le programme à mon agenda</a>
+  {{ end }}
+</p>
 <section class="timeline">
-  {{ range sort .Data.Pages "Params.starts" "asc" -}}
+  {{ range sort .Data.Pages "Params.startDate" "asc" -}}
   <article class="timeline-event" tabindex="0">
-    <h2>{{ .Title }}</h2>
-    <time datetime="{{ .Params.starts }}">
-      <span class="date">{{ .Params.starts | time.Format "Monday 2 Jan" }}</span>
-      <span class="time">{{ .Params.starts | time.Format "15h04" }}{{ if .Params.ends }}{{ .Params.ends | time.Format "—15h04" }}{{ end }}</span>
+    <time datetime="{{ .Params.startDate }}" class="datemark">
+      <span>{{ .Params.startDate | time.Format "Mon" }}</span>
+      <span class="day">{{ .Params.startDate | time.Format "2" }}</span>
+      <span>{{ .Params.startDate | time.Format "Jan" }}</span>
     </time>
-    <p>{{ .Content }}</p>
+    <div class="article-body">
+      <h2>{{ .Title }}</h2>
+      <span class="flex-spans">
+        <span
+          class="time-icon"
+          aria-label='Date et heure : {{ .Params.startDate | time.Format "Monday 2 January, à partir de 15h04" }}{{ if .Params.showEnd }}{{ .Params.endDate | time.Format ", jusque 15h04" -}}{{- end -}}.'
+        >
+          {{- .Params.startDate | time.Format "15h04" -}}
+          {{- if .Params.showEnd -}}{{ .Params.endDate | time.Format "-15h04" -}}{{- end -}}
+        </span>
+        {{ if .Params.place -}}
+        <span class="sr-only">Emplacement :</span>
+        <a class="place-icon" target="_blank" href="{{ .Params.placeUrl }}">{{ .Params.place }}</a>
+        {{- end }}
+      </span>
+      {{ .Content }}
+      {{ with .OutputFormats.Get "Calendar" }}
+          <a href="{{ .RelPermalink }}" type="text/calendar" class="btn">Ajouter à mon calendrier (ics)</a>
+      {{ end }}
+    </div>
   </article>
   {{ end -}}
 </section>

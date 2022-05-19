@@ -37,8 +37,8 @@ $pride-purple: #7902aa;
 $pride-white: #fff;
 $pride-lightblue: #55cdfc;
 $pride-pink: #f7a8b8;
-$pride-brown: #95522E;
-$pride-black: #09081F;
+$pride-brown: #95522e;
+$pride-black: #09081f;
 $pride-red: #fb5b44;
 $pride-orange: #fc9548;
 //$pride-yellow: #f2ce3f;
@@ -73,6 +73,10 @@ $primary: #5e3d76; // APCA: 90
 $gray-darker: #586069;
 $gray-dark: #6a737d;
 
+// Pastel colors
+$pastel-yellow: lighten($yellow, 20%);
+$pastel-purple: lighten($blue, 50%);
+
 /*
  * Typography
  */
@@ -83,10 +87,13 @@ $font-family-sans-serif: "Atkinson Hyperlegible", system-ui, -apple-system,
   BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, Lato, Helvetica,
   Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
   "Noto Color Emoji";
+$font-family-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Ubuntu, Cantarell, Lato, Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace;
 // stylelint-enable value-keyword-case
-$font-size-base: 1.1rem; // Assumes the browser default, typically `16px`
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-xl: $font-size-base * 1.375;
 $font-size-lg: $font-size-base * 1.25;
 $font-size-md: $font-size-base * 1.125;

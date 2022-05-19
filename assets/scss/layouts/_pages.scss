@@ -7,34 +7,36 @@
   h1 {
     font-size: 3rem;
   }
-
-  .btn {
-    background: $primary;
-    border-radius: 15px;
-    color: $gray-100;
-    display: inline-block;
-    margin: 0.5em;
-    padding: 0.8em 1.2em;
-    transition: outline-width 0.08s ease-in-out,
-      background-color 0.08s ease-in-out;
-    outline: darken($primary, 5%) 0px solid;
-    outline-offset: 3px;
-  }
-
-  .btn:hover,
-  .btn:active,
-  .btn:focus {
-    background: lighten($primary, 5%);
-    outline-width: 2px;
-    text-decoration: none;
-  }
-
-  .btn:active {
-    background: darken($primary, 5%);
-  }
 }
 
-h1 {
+.btn {
+  background: $primary;
+  border-radius: 15px;
+  color: $gray-100;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.8em 1.2em;
+  transition: outline-width 0.08s ease-in-out,
+    background-color 0.08s ease-in-out;
+  outline: darken($primary, 5%) 0px solid;
+  outline-offset: 3px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background: lighten($primary, 5%);
+  color: $white;
+  outline-width: 2px;
+  text-decoration: none;
+}
+
+.btn:active {
+  background: darken($primary, 5%);
+}
+
+h1,
+.center {
   text-align: center;
 }
 
@@ -102,7 +104,7 @@ p.meta a:focus {
 
   .card-more,
   .card-action {
-    background: lighten($yellow, 20%);
+    background: $pastel-yellow;
     border-radius: 0 0 8px 8px;
     padding: 1rem;
     text-align: end;
@@ -125,12 +127,144 @@ p.meta a:focus {
   }
 
   .card-action {
-    background: lighten($blue, 50%);
+    background: $pastel-purple;
     border-radius: 0;
     font-weight: 600;
 
     &::before {
       content: " ✨ ";
+    }
+  }
+}
+
+.date-icon::before {
+  content: "📅 ";
+}
+
+.time-icon::before {
+  content: "⏰ ";
+}
+
+.place-icon::before {
+  content: "📍 ";
+}
+
+.timeline {
+  $tl-event-padding-x: 1rem;
+  $tl-event-padding-y: 1rem;
+  $tl-event-spacing: 1rem;
+  $tl-column-width: 3rem;
+  $tl-marker-size: 1rem;
+  $tl-line-width: 0.25rem;
+  $tl-line-space: 2.5rem;
+  $tl-marker-top: $tl-event-padding-y + 1.5rem;
+  $tl-line-top: $tl-marker-top + $tl-marker-size + $tl-line-space;
+  $tl-marker-left: ($tl-column-width + $tl-marker-size) / 2;
+  $tl-line-left: ($tl-column-width + $tl-line-width) / 2;
+  $tl-line-limit: $tl-marker-size + 2 * $tl-line-space - $tl-event-spacing;
+  $tl-alterning-margin: 3rem;
+
+  max-width: 35em;
+  margin: 0 auto;
+
+  .timeline-event {
+    position: relative;
+    margin-left: $tl-column-width;
+    margin-bottom: $tl-event-spacing;
+
+    // Widget showing the date of the event
+    .datemark {
+      position: absolute;
+      text-transform: uppercase;
+      top: 0.5rem;
+      left: -$tl-column-width - 1rem;
+      background: white;
+      padding: 0.5rem;
+      box-sizing: border-box;
+      border-radius: 4px;
+      box-shadow: 1px 1px 3px -2px $pride-black;
+
+      span {
+        display: block;
+        text-align: center;
+        line-height: 1;
+      }
+      span:nth-child(1) {
+        color: $pride-purple;
+      }
+      .day {
+        font-size: 2rem;
+      }
+    }
+
+    // Article body
+    .article-body {
+      box-shadow: 1px 1px 3px -2px $pride-black;
+      border-radius: 8px;
+      background: white;
+      box-sizing: border-box;
+      font-family: $font-family-body;
+      padding: $tl-event-padding-y $tl-event-padding-x;
+    }
+
+    &:focus {
+      outline: darken($primary, 5%) 2px solid;
+      outline-offset: 3px;
+    }
+
+    .flex-spans {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+    }
+
+    h2 {
+      font-family: $font-family-sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    &:not(:last-of-type)::after {
+      content: "";
+      position: absolute;
+      border-radius: 8px;
+      top: $tl-line-top;
+      left: -$tl-line-left;
+      width: $tl-line-width;
+      height: calc(100% - #{$tl-line-limit});
+      background: lighten($primary, 40%);
+    }
+
+    // Alterning margins
+    &:nth-of-type(2n) {
+      margin-left: 2 * $tl-alterning-margin;
+      margin-right: -$tl-alterning-margin;
+      &::after {
+        left: -$tl-line-left - $tl-alterning-margin;
+      }
+      .datemark {
+        left: -$tl-column-width - $tl-alterning-margin;
+      }
+    }
+    &:nth-of-type(2n + 1) {
+      margin-left: 1rem + $tl-alterning-margin;
+      margin-right: -1rem;
+      &::after {
+        left: -$tl-line-left - 1rem;
+      }
+    }
+
+    // Alterning colors
+    &:nth-of-type(4n + 1)::after {
+      background: $pride-lightblue;
+    }
+    &:nth-of-type(4n + 2)::after,
+    &:nth-of-type(4n)::after {
+      background: $pride-pink;
+    }
+    &:nth-of-type(4n + 3)::after {
+      background: $pride-white;
     }
   }
 }
@@ -145,6 +279,21 @@ p.meta a:focus {
       padding-top: 1rem;
     }
   }
+  .timeline {
+    .timeline-event:nth-of-type(n) {
+      margin: 1rem 0;
+
+      .datemark {
+        position: unset;
+        float: left;
+        margin: 0.5rem 2rem 0.5rem 1rem;
+      }
+
+      &::after {
+        content: none;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 24rem) {
@@ -152,78 +301,13 @@ p.meta a:focus {
     margin: 0 -2rem 2rem;
     border-radius: 0;
   }
-}
 
-.timeline {
-  $tl-event-padding-x: 1rem;
-  $tl-event-padding-y: 1rem;
-  $tl-event-spacing: 1rem;
-  $tl-column-width: 3rem;
-  $tl-marker-size: 1rem;
-  $tl-line-width: 0.25rem;
-  $tl-line-space: 0.6rem;
-  $tl-marker-top: $tl-event-padding-y + 0.5rem;
-  $tl-line-top: $tl-marker-top + $tl-marker-size + $tl-line-space;
-  $tl-marker-left: ($tl-column-width + $tl-marker-size) / 2;
-  $tl-line-left: ($tl-column-width + $tl-line-width) / 2;
-  $tl-line-limit: $tl-marker-size + 2 * $tl-line-space - $tl-event-spacing;
-
-  max-width: 35em;
-  margin: 0 auto;
-
-  .timeline-event {
-    box-shadow: 1px 1px 4px #bbb;
-    border-radius: 8px;
-    background: white;
-    box-sizing: border-box;
-    position: relative;
-    padding: $tl-event-padding-y $tl-event-padding-x;
-    margin-left: $tl-column-width;
-    margin-bottom: $tl-event-spacing;
-
-    &:focus {
-      outline: darken($primary, 5%) 2px solid;
-      outline-offset: 3px;
-    }
-
-    .date::before {
-      content: "📅 ";
-    }
-
-    .time::before {
-      content: "⏰ ";
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin: 0;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      left: -$tl-marker-left;
-      top: $tl-marker-top;
-      width: $tl-marker-size;
-      height: $tl-marker-size;
-      background: #fff;
-      // border: 3px solid #888;
-      border-radius: 50%;
-      box-sizing: border-box;
-      border: 2px solid $primary;
-      z-index: 100;
-    }
-
-    &:not(:last-of-type)::after {
-      content: "";
-      position: absolute;
-      border-radius: 8px;
-      top: $tl-line-top;
-      left: -$tl-line-left;
-      width: $tl-line-width;
-      height: calc(100% - #{$tl-line-limit});
-      background: lighten($primary, 40%);
+  .timeline {
+    .timeline-event:nth-of-type(n) {
+      margin: 0 -2rem 2rem;
+      .article-body {
+        border-radius: 0;
+      }
     }
   }
 }
@@ -234,7 +318,20 @@ p.meta a:focus {
 
 @media screen and (prefers-color-scheme: dark) {
   .article-container {
-    background: transparentize($black, 0.4)
+    background: transparentize($black, 0.4);
+  }
+
+  .timeline {
+    .timeline-event {
+      .article-body,
+      .datemark {
+        background: $gray-900;
+        box-shadow: 1px 1px 3px -2px $shadow-color-soft;
+      }
+      .datemark span:nth-child(1) {
+        color: $link-color-dark;
+      }
+    }
   }
 
   .card {

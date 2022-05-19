@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+    <p>
+      <time
+        datetime="{{ .Params.startDate }}"
+        class="date-icon"
+        aria-label='Date et heure : {{ .Params.startDate | time.Format "Monday 2 January, à partir de 15h04" }}{{ if .Params.showEnd }}{{ .Params.endDate | time.Format ", jusque 15h04" -}}{{- end -}}.'
+      >
+        {{ .Params.startDate | time.Format "Monday 2 January, 15h04" -}}
+        {{- if .Params.showEnd -}}{{ .Params.endDate | time.Format "-15h04" -}}{{- end -}}
+      </time>
+      {{ if .Params.place -}}
+      <br />
+      <span class="sr-only">Emplacement :</span>
+      <a class="place-icon" target="_blank" href="{{ .Params.placeUrl }}">{{ .Params.place }}</a>
+      {{- end }}
+    </p>
+  </header>
+
+  {{ .Content }}
+
+  <p class="center">
+    {{ with .OutputFormats.Get "Calendar" }}
+    <a href="{{ .RelPermalink }}" type="text/calendar" class="btn"
+      >Ajouter à mon calendrier (ics)</a
+    >
+    {{ end }}
+  </p>
+</article>
+{{ end }}
