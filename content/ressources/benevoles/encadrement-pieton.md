@@ -1,6 +1,6 @@
 ---
 title: "Service d'ordre"
-description: "Un des postes d'encadrement : l'encadrement piéton / service d'ordre / SO le jour de la Marche des Fiertés."
+description: "Un des rôles d'encadrement : l'encadrement piéton / service d'ordre / SO le jour de la Marche des Fiertés."
 isArticle: true
 date: 2022-04-02T15:00:00+00:00
 lastmod: 2022-04-02T15:00:00+00:00

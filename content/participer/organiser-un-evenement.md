@@ -1,7 +1,7 @@
 ---
 title: "Organiser un événement"
 description: "La Quinzaine des Fiertés, c’est avant tout un ensemble d’événements autour des cultures LGBTQIA+. Si vous souhaitez organiser un événement et le faire figurer au programme officiel, n’hésitez pas à nous le faire savoir. Nous pouvons également vous aider à l’organiser !"
-form: https://framaforms.org/quinzaine-des-fiertes-grenoble-2022-1647026438
+form: https://framaforms.org/quinzaine-des-fiertes-grenoble-2023-1647026438
 isArticle: true
 layout: participation
 date: 2022-01-01T15:00:00+00:00

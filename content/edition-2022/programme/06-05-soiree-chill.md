@@ -3,6 +3,7 @@ title: "Soirée chill"
 startDate: 2022-06-05T18:00:00
 endDate: 2022-06-05T23:00:00
 showEnd: true
+location: Centre LGBTI de Grenoble, 8 rue sergent Bobillot, 38000 Grenoble
 place: Centre LGBTI
 placeUrl: https://maps.apple.com/?q=Centre+LGBTI&sll=45.18,5.73&address=8+rue+sergent+Bobillot
 ---

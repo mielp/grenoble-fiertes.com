@@ -3,6 +3,8 @@ title: "Participer"
 description: "Participer à la Pride de Grenoble"
 date: 2022-01-01T15:00:00+00:00
 lastmod: 2022-01-01T15:00:00+00:00
+AfficheAlt: "Photo de la foule lors de l'édition 2022."
+AfficheSrc: "foule.jpg"
 draft: false
 images: []
 _build:

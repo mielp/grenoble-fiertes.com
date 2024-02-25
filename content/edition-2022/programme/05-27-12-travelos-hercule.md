@@ -4,6 +4,7 @@ startDate: 2022-05-27T20:30:00
 endDate: 2022-05-27T23:00:00
 showEnd: false
 place: La Bobine
+location: La Bobine, 42 Bd Clemenceau, 38000 Grenoble
 placeUrl: https://maps.apple.com/?q=La+Bobine&sll=45.18,5.73&address=42+Bd+Clemenceau
 cost: 15€
 ---

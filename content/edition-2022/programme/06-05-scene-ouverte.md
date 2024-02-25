@@ -3,6 +3,7 @@ title: "Scène ouverte : viens performer !"
 startDate: 2022-06-05T19:00:00
 endDate: 2022-06-05T23:00:00
 showEnd: false
+location: Le Midi/Minuit, 38 rue Saint Laurent, 38000 Grenoble
 place: Le Midi/Minuit
 placeUrl: https://maps.apple.com/?q=Le+Midi%2FMinuit&sll=45.18,5.73&address=38+rue+Saint+Laurent
 cost: 3€ d'adhésion + prix libre

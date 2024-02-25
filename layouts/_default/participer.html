@@ -19,4 +19,7 @@
   </article>
   {{ end -}}
 </section>
+{{ if .Params.AfficheSrc }}
+<img class="affiche" alt="{{ .Params.AfficheAlt }}" src="{{ .Params.AfficheSrc }}" />
+{{- end }}
 {{ end }}

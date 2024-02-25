@@ -1,6 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <p>{{ .Description }}</p>
+{{ if .Params.missingEvents }}<p class="warning-block">Certains événements n'ont pas encore été confirmés, ou il nous manque quelques informations (une description, un horaire, un lieu…). Tant que cet avertissement est affiché, le programme n'est pas définitif !</p>{{ end }}
 <p class="center">
   {{ with .OutputFormats.Get "Calendar" }}
   <a class="btn" href="{{ .RelPermalink }}" type="text/calendar">Ajouter le programme à mon agenda</a>

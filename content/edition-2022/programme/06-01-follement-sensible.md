@@ -3,6 +3,7 @@ title: "One man show de François Mallet : Follement Sensible"
 startDate: 2022-06-01T20:30:00
 endDate: 2022-06-01T22:30:00
 showEnd: false
+location: La Basse Cour, 18 rue Colbert, 38000 Grenoble
 place: La Basse-Cour
 #placeUrl: https://www.labassecour.net/
 placeUrl: https://maps.apple.com/?q=La+Basse+Cour&sll=45.18,5.73&address=18+rue+Colbert

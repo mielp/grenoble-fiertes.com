@@ -1,6 +1,6 @@
 ---
 title: "Distribution"
-description: "Un des postes d'animation : la distribution (d'eau, etc) le jour de la Marche des Fiertés."
+description: "Un des rôles d'animation : la distribution (d'eau, etc) le jour de la Marche des Fiertés."
 isArticle: true
 date: 2022-04-02T15:00:00+00:00
 lastmod: 2022-04-02T15:00:00+00:00
@@ -10,9 +10,9 @@ images: []
 
 ## Leurs missions
 
-Le but de la distribution est de faire parvenir au public les consommables nécessaires pour que la manifestation se passe bien (eau, compotes, bouchons d'oreille, d'autres choses ?). Les bénévoles à ce poste ne seront pas très mobiles, mais devraient être reconnaissables par le public et par le 
+Le but de la distribution est de faire parvenir au public les trucs nécessaires pour que la manifestation se passe bien (eau, compotes, bouchons d'oreille, d'autres choses ?).
 
-C'est un nouveau poste que l'on essaye de mettre en place cette année (si on a suffisamment de monde pour les autres postes), et nous pouvons absolument en parler pour le définir ensemble !
+Nous pouvons en parler pour définir ensemble à quoi doit ressembler ce rôle !
 
 ## Leur matériel
 

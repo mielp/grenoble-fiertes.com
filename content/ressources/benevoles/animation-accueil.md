@@ -1,6 +1,6 @@
 ---
 title: "Accueil"
-description: "Un des postes d'animation : l'accueil du public le jour de la Marche des Fiertés."
+description: "Un des rôles d'animation : l'accueil du public le jour de la Marche des Fiertés."
 isArticle: true
 date: 2022-04-02T15:00:00+00:00
 lastmod: 2022-04-02T15:00:00+00:00

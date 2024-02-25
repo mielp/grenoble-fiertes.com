@@ -4,6 +4,7 @@ startDate: 2022-05-27T18:45:00
 endDate: 2022-05-27T20:45:00
 showEnd: true
 isArticle: true
+location: Centre LGBTI de Grenoble, 8 rue sergent Bobillot, 38000 Grenoble
 place: Centre LGBTI
 placeUrl: https://maps.apple.com/?q=Centre+LGBTI&sll=45.18,5.73&address=8+rue+sergent+Bobillot
 ---

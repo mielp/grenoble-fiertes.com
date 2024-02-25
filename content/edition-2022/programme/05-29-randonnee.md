@@ -3,6 +3,7 @@ title: "Randonnée au Conest"
 startDate: 2022-05-29T10:00:00
 endDate: 2022-05-29T17:00:00
 showEnd: false
+location: Les Arnauds, 38220 Saint-Jean-de-Vaulx
 place: Hameau Les Arnauds, 38220
 placeUrl: https://maps.apple.com/?q=Les+Arnauds&sll=45.02,5.77&address=38220+Saint-Jean-de-Vaulx
 ---

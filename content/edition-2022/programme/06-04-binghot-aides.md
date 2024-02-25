@@ -3,6 +3,7 @@ title: "BingHOT d'éGLANDine"
 startDate: 2022-06-04T17:00:00
 endDate: 2022-06-04T19:00:00
 showEnd: true
+location: AIDES, 8 rue sergent Bobillot, 38000 Grenoble
 place: Asso AIDES
 placeUrl: https://maps.apple.com/?q=AIDES&sll=45.18,5.73&address=8+rue+sergent+Bobillot
 ---

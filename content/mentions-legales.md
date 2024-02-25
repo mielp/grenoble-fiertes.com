@@ -8,6 +8,12 @@ draft: false
 images: []
 ---
 
+## Propriété intellectuelle
+
+Sauf mention contraire, les photos, visuels et autres éléments multimédia présents sur ce site web sont propriété de l'association Grenoble Fiertés.
+
+Le [caractère Faune](https://www.cnap.fr/sites/faune/) utilisé sur site a été créé par Alice Savoie dans le cadre d’une commande du Centre national des arts plastiques en partenariat avec le Groupe Imprimerie Nationale.
+
 ## Identité
 
 **Nom :** Grenoble Fiertés<br />
@@ -21,8 +27,6 @@ Association enregistrée auprès de la préfecture de l'Isère.
 
 **Siège social :** c/o centre LGBTI, 8 rue Sergent Bobillot, 38000 Grenoble<br />
 **E-mail :** Grenoble Fiertés <contact@grenoble-fiertes.com>
-
-**Direction de la publication :** Méli Villecroze <meli@grenoble-fiertes.com>
 
 ## Protection des données
 

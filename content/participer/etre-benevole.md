@@ -2,7 +2,7 @@
 title: "Être bénévole"
 description: "Que l’organisation de la quinzaine vous intéresse, ou que vous souhaitiez mettre la main à la pâte ponctuellement, la Pride de Grenoble recherche en permanence des bénévoles. Vous avez envie de prendre des responsabilités dans une équipe, ou bien simplement aider à la logistique ? Rejoignez-nous dès maintenant pour donner vie à l’événement !"
 isArticle: true
-form: https://framaforms.org/pride-grenoble-2022-etre-benevole-1648540428
+form: https://framaforms.org/pride-grenoble-2023-etre-benevole-1648540428
 layout: participation
 date: 2022-01-01T15:00:00+00:00
 lastmod: 2022-01-01T15:00:00+00:00
@@ -11,9 +11,9 @@ images: []
 weight: 10
 ---
 
-## Plus de 60 bénévoles
+## Plus de 80 bénévoles
 
-Chaque année, plus de 60 personnes bénévoles participent de près ou de loin à l’organisation et au bon déroulement de la Pride.
+Chaque année, plus de 80 personnes bénévoles participent de près ou de loin à l’organisation et au bon déroulement de la Pride.
 
 Sans ces personnes, la marche et la quinzaine ne pourraient pas avoir lieu !
 

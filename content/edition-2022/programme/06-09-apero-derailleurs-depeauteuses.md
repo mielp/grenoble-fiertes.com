@@ -3,6 +3,7 @@ title: "Apéro Dérailleurs & Dépeauteuses"
 startDate: 2022-06-09T19:00:00
 endDate: 2022-06-09T22:00:00
 showEnd: false
+location: Le Commun des Mortels, 20 rue Aimé Berey, 38000 Grenoble
 place: Le Commun des Mortels
 placeUrl: https://maps.apple.com/?q=Le+Commun+des+Mortels&sll=45.18,5.73&address=20+rue+Aime+Berey
 ---

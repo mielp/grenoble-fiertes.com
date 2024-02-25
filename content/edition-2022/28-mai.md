@@ -26,11 +26,21 @@ Il y aura une buvette de la bière et des softs, et un stand de vente de drapeau
 
 Il y aura aussi de la musique toute l'après-midi, avec [le groupe de rock Kanabae](https://www.facebook.com/events/518490193344139) de 13h à 14h30, et [le duo DJ Spice Kitten](https://www.instagram.com/spice.kitten/) de l'arrivée de la Marche à la clôture du village (17h30-19h).
 
+## Mot d'ordre
+
+Cette année, nous marcherons derrière le mot d'ordre suivant :
+
+> LGBTI de tous pays,  
+> queers, immigré·es, putes, marginalisé·es,  
+> prenons le micro, saisissons les journaux !
+
 ## Parcours
 
-Le parcours sera dévoilé dans la semaine du 23 mai, avec le mot d'ordre de la Marche. _Stay tuned!_
+Le parcours de cette année a été dévoilé le 23 mai :
 
-La Marche partira à 15h du jardinde ville, et devrait revenir pour 17h30, après un trajet de 3,3 kilomètres.
+<img class="affiche" alt="Plan de la Marche des Fiertés de Grenoble du 28 mai 2022. Un village associatif se tient sur le Jardin de Ville de 13 heures à 19 heures. Le parcours de la Marche fait 3 kilomètres 30 et passe par la place Notre Dame, puis la place de Verdun, puis à nouveau par Notre Dame, puis par les quais côté Saint Laurent avant de revenir au Jardin de Ville. Le parcours part à 15 heures et revient à 17 heures 30. Il y aura deux pauses (à Verdun et à Lavalette). La ligne de tram B sera interrompue par le parcours de la Marche. Les emplacements des toilettes publiques et des fontaines à eau sont indiquées sur le plan." src="../parcours.jpg"/>
+
+La Marche partira à 15h du Jardin de ville, et devrait revenir pour 17h30, après un trajet de 3,3 kilomètres.
 
 Pendant le parcours, le duo DJ [Ahurac](https://www.instagram.com/ahurac.music/) et [Røwer](https://www.instagram.com/rowermusic/) fera danser le cortège festif, en compagnie d'autres chars sur lesquels nous communiquerons prochainement.
 
@@ -42,9 +52,11 @@ La composition du cortège devrait être la suivante :
 1. Autres associations, cyclistes, divers
 1. Cortège calme, avec port du masque obligatoire
 
-Il n'y aura pas de cortège non mixte, en raison notamment de notre manque de capacité à aider à gérer la non-mixité et à virer les relou-es. Si orga souhaite organiser un cortège non mixte et peut assurer d'elle-même la non-mixité au sein de ce cortège, n'hésitez pas à nous contacter pour qu'on en discute !
+Il n'y aura pas de cortège non mixte, en raison notamment de notre manque de capacité à aider à gérer la non-mixité et à virer les relou-es. Si une orga souhaite organiser un cortège non mixte et peut assurer d'elle-même la non-mixité au sein de ce cortège, n'hésitez pas à nous contacter pour qu'on en discute !
 
 Un cortège <abbr title="Travailleureuses du sexe">TDS</abbr> de parapluies rouges devrait se former à l'initiative du STRASS ; son emplacement n'est pas encore connu.
+
+Un cortège lesbien devrait se former à l'initiative de la Riposte Lesbienne ; son emplacement n'est pas encore connu. Leur mot d'ordre sera « Fétichisées, invisibilisées, lesbiennes en danger ! Ripostons ! ».
 
 ## Infos pratiques
 
@@ -56,14 +68,13 @@ La Croix-Rouge sera présente toute l'après-midi, sur le village et sur la Marc
 
 ## L'affiche
 
-Sans plus attendre, nous vous présentons la super affiche l'édition 2022 de la Marche et de la Quinzaine des Fiertés de Grenoble, réalisée par [le fabuleux Ek](https://linktr.ee/Enbyhexe) !
+Sans plus attendre, nous vous présentons la super affiche de l'édition 2022 de la Marche et de la Quinzaine des Fiertés de Grenoble.
 
 <a target="_blank" href="../affiche.jpg"><img alt="Affiche pour la Marche des Fiertés de Grenoble. Au centre de l'affiche, une illustration dans un style à base d'aplats de couleur. De nombreuses personnes souriantes, avec des vêtements et des cheveux aux teintes pastel, sont représentées sur fond bleu. Elles ont des expressions de genre très variées. En bas de l'affiche, les partenaires." src="../affiche.jpg" class="affiche"></a>
 
 ## Les partenaires
 
 L'édition 2022 de la Marche des Fiertés de Grenoble est rendue possible grâce aux partenaires de cette année !
-
 
 <img alt="Ville de Grenoble" class="partenaire" src="../partenaires/ville-de-grenoble.png" width="150" loading="lazy"/>
 <img alt="D.I.L.C.R.A.H." class="partenaire" src="../partenaires/dilcrah.png" width="180" loading="lazy"/>

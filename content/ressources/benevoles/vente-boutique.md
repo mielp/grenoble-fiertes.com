@@ -1,6 +1,6 @@
 ---
 title: "Vente boutique"
-description: "Un des postes de vente : la tenue de la boutique."
+description: "Un des rôles de vente : la tenue de la boutique."
 isArticle: true
 date: 2022-04-02T15:00:00+00:00
 lastmod: 2022-04-02T15:00:00+00:00

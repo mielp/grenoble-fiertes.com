@@ -1,8 +1,8 @@
 # Main navigation
 
 [[main]]
-  name = "Édition 2022"
-  url = "/edition-2022"
+  name = "Édition 2023"
+  url = "/edition-2023"
   weight = 10
 
 [[main]]
@@ -38,8 +38,8 @@
   weight = 10
 
 [[quick]]
-  name = "Programme 2022"
-  url = "/edition-2022"
+  name = "Programme 2023"
+  url = "/edition-2023"
   weight = 20
 
 # [[quick]]

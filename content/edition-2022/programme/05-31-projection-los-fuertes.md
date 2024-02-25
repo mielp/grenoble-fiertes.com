@@ -3,6 +3,7 @@ title: "Projection : Los Fuertes"
 startDate: 2022-05-31T20:15:00
 endDate: 2022-05-31T23:00:00
 showEnd: false
+location: Cinéma Le Club, 9 bis rue du Phalanstère, 38000 Grenoble
 place: Cinéma Le Club
 #placeUrl: https://www.cinemaleclub.com/
 placeUrl: https://maps.apple.com/?q=Cinéma+Le+Club&sll=45.18,5.73&address=9+bis+rue+du+Phalanstère
