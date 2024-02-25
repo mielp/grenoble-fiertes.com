@@ -22,8 +22,6 @@ twitterCreator = "@GrenoblePride"
 schemaType = "Organization"
 schemaName = "GrenoblePride"
 schemaAuthor = "Grenoble Fiertés"
-schemaAuthorTwitter = "https://twitter.com/softpandarou"
-schemaAuthorGitHub = "https://github.com/mielp"
 schemaLocale = "fr-FR"
 schemaLogo = "images/grenoble-fiertes.png"
 schemaLogoWidth = 512
@@ -32,7 +30,6 @@ schemaImage = "images/grenoble-fiertes.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/GrenoblePride"
-schemaGitHub = "https://github.com/mielp"
 
 ## Chrome Browser
 themeColor = "#fff"

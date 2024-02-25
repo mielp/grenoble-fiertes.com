@@ -12,7 +12,7 @@ pour le générateur [Hugo](https://gohugo.io/).
 ## Licence
 
 L'ensemble du code original de ce projet est placé sous
-[licence EUPL 1.2 par Méli Pandarou](LICENSE).
+[licence EUPL 1.2 par l'association Grenoble Fiertés](LICENSE).
 
 Tout le code issu de Hyas est placé sous
 [licence MIT par Henk Verlinde](https://github.com/h-enk/hyas/blob/master/LICENSE).

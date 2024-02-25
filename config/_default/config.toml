@@ -5,7 +5,6 @@ defaultContentLanguage = "fr"
 defaultContentLanguageInSubDir = true
 disableAliases = true
 disableHugoGeneratorInject = true
-disableKinds = ["taxonomy"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = false
