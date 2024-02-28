@@ -3,7 +3,7 @@ title: "Faire un don"
 description: "La Marche et la Quinzaine des Fiertés sont organisées par Grenoble Fiertés, une association loi 1901 à but non lucratif et 100% bénévole.
 En donnant, vous nous permettez de proposer des événements diversifiés à plus d’un millier de personnes chaque année.
 Tous les dons donnent droit à des réductions d'impôt."
-form: https://www.helloasso.com/associations/grenoble-fiertes/collectes/marche-des-fiertes-de-grenoble-2023
+form: https://www.helloasso.com/associations/grenoble-fiertes/formulaires/1
 isArticle: true
 layout: participation
 date: 2022-01-01T15:00:00+00:00
