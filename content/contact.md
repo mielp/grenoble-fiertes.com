@@ -1,5 +1,5 @@
 ---
-title : "Contactez-nous"
+title: "Contactez-nous"
 description: "Les moyens de contacter l'association."
 isArticle: true
 date: 2022-01-01T15:00:00+00:00

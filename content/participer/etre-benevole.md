@@ -2,7 +2,7 @@
 title: "Être bénévole"
 description: "Que l’organisation de la quinzaine vous intéresse, ou que vous souhaitiez mettre la main à la pâte ponctuellement, la Pride de Grenoble recherche en permanence des bénévoles. Vous avez envie de prendre des responsabilités dans une équipe, ou bien simplement aider à la logistique ? Rejoignez-nous dès maintenant pour donner vie à l’événement !"
 isArticle: true
-form: https://framaforms.org/pride-grenoble-2023-etre-benevole-1648540428
+form: https://framaforms.org/pride-grenoble-2024-etre-benevole-1648540428
 layout: participation
 date: 2022-01-01T15:00:00+00:00
 lastmod: 2022-01-01T15:00:00+00:00
