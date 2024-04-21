@@ -1,7 +1,6 @@
 ---
 title: "Organiser un événement"
 description: "La Quinzaine des Fiertés, c’est avant tout un ensemble d’événements autour des cultures LGBTQIA+. Si vous souhaitez organiser un événement et le faire figurer au programme officiel, n’hésitez pas à nous le faire savoir. Nous pouvons également vous aider à l’organiser !"
-form: https://framaforms.org/demande-de-participation-au-mois-des-fiertes-2024-1708867815
 isArticle: true
 layout: participation
 date: 2022-01-01T15:00:00+00:00
@@ -11,11 +10,13 @@ images: []
 weight: 20
 ---
 
-La Quinzaine des Fiertés, c’est avant tout un ensemble d’événements autour des cultures LGBTQI.
+La Quinzaine des Fiertés, c’est avant tout un ensemble d’événements autour des cultures LGBTQI. 
+Les demandes de participation au mois des fiertés sont dorénavant closes, mais n'hésitez pas à nous écrire si vous avez des propositions pour l'année prochaine ou autres!
 
+<!--
 Vous souhaitez organiser un événement pendant cette période, en rapport avec les cultures LGBTQIA+, et vous voulez le faire figurer au programme officiel ?
-
 Remplissez le formulaire ci-après et nous vous recontacterons dans les plus brefs délais !
+-->
 
 <!--
 - Votre structure

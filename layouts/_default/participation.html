@@ -2,6 +2,7 @@
 <article>
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <a href="{{ .Params.Form }}" class="sparks external" target="_blank" rel="noopener">Accéder au formulaire</a>
-</article>
+  {{ if .Params.Form }}
+    <a href="{{ .Params.Form }}" class="sparks external" target="_blank" rel="noopener">Accéder au formulaire</a>
+  {{ end }}
 {{ end }}
