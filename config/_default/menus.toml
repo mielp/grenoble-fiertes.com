@@ -3,12 +3,17 @@
 [[main]]
   name = "Édition 2024"
   url = "/edition-2024"
-  weight = 10
+  weight = 1
+
+[[main]]
+  name = "Partenaires 2024"
+  url = "/edition-2024/partenaires"
+  weight = 2
 
 [[main]]
   name = "Participer"
   url = "/participer"
-  weight = 20
+  weight = 3
 
 #[[main]]
 #  name = "Archives 2018-2021"
@@ -18,12 +23,12 @@
 [[main]]
  name = "L'asso"
  url = "/a-propos"
- weight = 30
+ weight = 4
 
 [[main]]
   name = "Contact"
   url = "/contact"
-  weight = 40
+  weight = 5
 
 #[[main]]
 #  name = "Presse"
@@ -39,7 +44,7 @@
 
 [[quick]]
   name = "Programme 2024"
-  url = "/edition-2024"
+  url = "/edition-2024/programme"
   weight = 20
 
 # [[quick]]

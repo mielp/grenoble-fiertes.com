@@ -18,13 +18,15 @@
     <div class="article-body">
       <h2>{{ .Title }}</h2>
       <span class="flex-spans">
+        {{ if .Params.showHours }}
         <span
           class="time-icon"
           aria-label='Date et heure : {{ .Params.startDate | time.Format "Monday 2 January, à partir de 15h04" }}{{ if .Params.showEnd }}{{ .Params.endDate | time.Format ", jusque 15h04" -}}{{- end -}}.'
         >
           {{- .Params.startDate | time.Format "15h04" -}}
-          {{- if .Params.showEnd -}}{{ .Params.endDate | time.Format "-15h04" -}}{{- end -}}
+          {{- if .Params.showEnd -}}{{ .Params.endDate | time.Format "-15h04" -}}{{- end -}}     
         </span>
+        {{ end }}
         {{ if .Params.place -}}
         <span class="sr-only">Emplacement :</span>
         <a class="place-icon" target="_blank" href="{{ .Params.placeUrl }}">{{ .Params.place }}</a>
