@@ -17,6 +17,10 @@ class Event {
     const endHourString = event_data['Heure fin'];
     this.startDate = createDate(dateString, startHourString);
     this.endDate = createDate(dateString, endHourString);
+    // fix the day if event goes after midnight
+    if (this.endDate < this.startDate) {
+      this.endDate.setDate(this.endDate.getDate() + 1);
+    }
     this.showEnd = false;
     if (endHourString != "") {
       this.showEnd = true;

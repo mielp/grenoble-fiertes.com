@@ -11,11 +11,11 @@ La Marche des Fiertés de Grenoble aura lieu le **<time datetime="2024-06-01">sa
 
 ## Déroulement de la journée
 
-- **13h :** ouverture du village associatif sur le Jardin de Ville
-- **14h30 :** discours avant le départ
-- **15h :** départ de la Marche
-- **17h30h :** arrivée de la Marche au Jardin de Ville
-- **19h :** clôture du village associatif, dispersion
+- **13h-15h :** performances et discours (collectif Libule, Irina, Mayb la Fabuleuse) 
+- **15h-17h :** déambulation en ville 
+- **17h-19h :** concert de M4uv3, prises de parole, au revoir!"
+
+Et diverses after-prides, voir [le planning!](/edition-2024/programme)
 
 ## Village associatif
 
@@ -50,6 +50,8 @@ Cette année, l'affiche est l'oeuvre de [Charlie-pour-les-intimes](https://www.i
          alt="Affiche Pride de Grenoble 2024"
          width="80%">
 </figure>
+
+Livret du programme à venir!
 
 ## Infos pratiques
 
