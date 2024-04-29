@@ -13,7 +13,7 @@ La Marche des Fiertés de Grenoble aura lieu le **<time datetime="2024-06-01">sa
 
 - **13h-15h :** performances et discours (collectif Libule, Irina, Mayb la Fabuleuse) 
 - **15h-17h :** déambulation en ville 
-- **17h-19h :** concert de M4uv3, prises de parole, au revoir!"
+- **17h-19h :** concert de M4uv3 et prises de parole
 
 Et diverses after-prides, voir [le planning!](/edition-2024/programme)
 
@@ -33,7 +33,7 @@ La Pride est un moment festif de célébration des diversités. C'est aussi et a
     </blockquote>
 </div>
 
-Le parcours de la marche se fera suivant une boucle depuis et vers le Jadin de Ville. 
+Le parcours de la marche se fera suivant une boucle depuis et vers le Jardin de Ville. 
 
 <figure class="center">
     <img src="parcours-pride-2024.jpg"

@@ -29,8 +29,9 @@ class Event {
     if (startHourString != "") {
       this.showHours = true;
     }
-    this.address = capitalize(event_data['Adresse lieu']);
     this.location = capitalize(event_data['Nom lieu']);
+    this.address = capitalize(event_data['Adresse lieu']);
+    this.addressUrl = event_data['URL lieu'];
     this.shortDescription = capitalize(event_data['Description courte']);
     this.longDescription = capitalize(event_data['Description longue']);
     this.org1 = capitalize(event_data['Organisateur 1']);
@@ -43,6 +44,11 @@ class Event {
     let accessibility = "";
     let organizers = "";
     let subscribe = "";
+    let placeName = "";
+    if (this.location != "") {
+      placeName += "***Lieu :*** ";
+      placeName += this.location;
+    }
     if (this.accessibility != "") {
       accessibility += "***Accessibilité :*** ";
       accessibility += this.accessibility;
@@ -67,12 +73,14 @@ showHours: ${this.showHours}
 showEnd: ${this.showEnd}
 location: ${this.location}
 place: ${this.address}
-placeUrl: 
+placeUrl: ${this.addressUrl}
 ---
 
 ${this.shortDescription}
 
 ${this.longDescription}
+
+${placeName}
 
 ${subscribe}
 
@@ -87,7 +95,7 @@ ${accessibility}
   filename() {
     const dayStr = String(this.startDate.getDate()).padStart(2, '0');
     const monthStr = String(this.startDate.getMonth() + 1).padStart(2, '0');
-    const name = this.title.toLowerCase().replace(/ /g, "-")
+    const name = this.title.toLowerCase().replace(/ /g, "-").replace("/", "-");
     return dayStr + "-" + monthStr + "-" + name + ".md"
   }
 
@@ -141,13 +149,13 @@ fs.readFile('prog-gf-2024.csv', 'utf8', (err, data) => {
     }
 
     // Generate markdown files for each event
-    events.slice(0,5).forEach(event_data => {
+    events.forEach(event_data => {
       const event = new Event(event_data);
-      console.log(event);
-      console.log("filename is", event.filename())
-      console.log(event.toMarkdown());
+      // console.log(event);
+      // console.log("filename is", event.filename())
+      // console.log(event.toMarkdown());
       event.writeFile();
-      console.log("\n");
+      // console.log("\n");
     });
   });
 });
