@@ -8,8 +8,12 @@
         class="date-icon"
         aria-label='Date et heure : {{ .Params.startDate | time.Format "Monday 2 January, à partir de 15h04" }}{{ if .Params.showEnd }}{{ .Params.endDate | time.Format ", jusque 15h04" -}}{{- end -}}.'
       >
+      {{ if .Params.showHours }}
         {{ .Params.startDate | time.Format "Monday 2 January, 15h04" -}}
         {{- if .Params.showEnd -}}{{ .Params.endDate | time.Format "-15h04" -}}{{- end -}}
+      {{ else }}
+        {{ .Params.startDate | time.Format "Monday 2 January" -}}
+      {{ end }}
       </time>
       {{ if .Params.place -}}
       <br />

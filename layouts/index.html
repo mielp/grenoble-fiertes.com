@@ -3,7 +3,9 @@
   <h1>{{ .Title }}</h1>
   <h2>{{ .Params.Lead | safeHTML }}</h2>
   <a class="btn" href="{{ "participer" | absURL }}" role="button">Je participe !</a>
-  <a class="btn" href="{{ "edition-2024" | absURL }}" role="button">Le programme 2024</a>
+  <a class="btn" href="{{ "edition-2024" | absURL }}" role="button">L'Édition 2024</a>
+  <a class="btn" href="{{ "edition-2024/1er-juin" | absURL }}" role="button">La Pride</a>
+  <a class="btn" href="{{ "edition-2024/programme" | absURL }}" role="button">Le Programme</a>
 </section>
 {{- .Content -}}
 {{ end }}
